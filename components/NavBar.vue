@@ -2,14 +2,14 @@
     <div class="nav_bar">
         <div class="nav_content">
             <div class="nav_links">
-                <h1 style="color: #101010;">Port<span style="font-style: italic; font-weight: bolder;">folio..</span></h1>
+                <h1 style="color: #101010;"><kbd>Port</kbd><span style="font-style: italic; font-weight: bolder;">folio..</span></h1>
 
-                <!-- <div class="links">
+                <div class="links">
                     <ul>
-                        <li>Skills</li>
-                        <li>Contact</li>
+                        <li>Skills ↗</li>
+                        <li>Contact ↗</li>
                     </ul>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -52,7 +52,6 @@ export default {
 
 ul {
     padding: 10px !important;
-    color: #101010;
     list-style: none;
     display: flex;
     margin: 0;
@@ -60,6 +59,8 @@ ul {
 }
 
 .nav_links li {
-    margin-right: 20px;
+    margin-left: 20px;
+    color: #101010 !important;
+    font-weight: 600;
 }
 </style>
